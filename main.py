@@ -58,7 +58,7 @@ async def main():
     logger.info(f"Attempting to connect to: {uri}")
     
     # Test connection first
-    await test_connection(uri, username, password)
+    # await test_connection(uri, username, password)
     
     # Initialize configuration
     config = GraphRAGConfig(

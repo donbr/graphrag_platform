@@ -2,7 +2,9 @@
 from typing import Dict, List, Optional, Any
 import logging
 from neo4j import GraphDatabase
-from neo4j_graphrag.embeddings import OpenAIEmbeddings, SentenceTransformerEmbeddings
+
+from neo4j_graphrag.embeddings.openai import OpenAIEmbeddings
+from neo4j_graphrag.embeddings.sentence_transformers import SentenceTransformerEmbeddings
 from neo4j_graphrag.retrievers import (
     VectorRetriever,
     VectorCypherRetriever,

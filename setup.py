@@ -19,6 +19,7 @@ setup(
         "pydantic",
         "pytest",
         "pytest-asyncio",
+        "torch"
     ],
     python_requires=">=3.9",
 )
