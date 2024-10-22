@@ -30,7 +30,6 @@ class GraphRAGManager:
             auth=(config.neo4j_username, config.neo4j_password)
         )
         self.embedder = OpenAIEmbeddings(
-            api_key=config.openai_api_key,
             model=config.embedding_model
         )
         self.llm = OpenAILLM(
