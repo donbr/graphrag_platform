@@ -70,8 +70,8 @@ async def main():
         fulltext_index_name="video_text"
     )
     
-    # print config
-    print(f"config\n{config}")
+    # print config only for debugging
+    # print(f"config\n{config}")
 
     # Create manager instance
     manager = GraphRAGManager(config)
