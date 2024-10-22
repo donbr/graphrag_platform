@@ -1,4 +1,4 @@
-# enhanced_graphrag/manager.py
+# graphrag/manager.py
 from typing import Dict, List, Optional, Any
 import logging
 from neo4j import GraphDatabase
@@ -18,8 +18,8 @@ from .config import GraphRAGConfig
 
 logger = logging.getLogger(__name__)
 
-class EnhancedGraphRAGManager:
-    """Enhanced GraphRAG manager supporting multiple retrieval strategies"""
+class GraphRAGManager:
+    """GraphRAG manager supporting multiple retrieval strategies"""
     
     def __init__(self, config: GraphRAGConfig):
         self.config = config
