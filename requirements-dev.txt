@@ -6,3 +6,4 @@ mypy==1.9.0
 pytest==8.0.2
 pytest-asyncio==0.23.5
 pytest-cov==4.1.0
+python-dotenv
